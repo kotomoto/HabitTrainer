@@ -3,7 +3,7 @@ package com.koto.habittrainer.db
 import android.provider.BaseColumns
 
 val DATABASE_NAME = "habittrainer.db"
-val DATABASE_VERSION = 10
+val DATABASE_VERSION = 12
 
 object HabitEntry : BaseColumns {
     val TABLE_NAME = "habit"
